@@ -10,17 +10,17 @@ export function Home() {
 		<div className="traffic-lights">
 			<div
 				onClick={() => setSelectedColor("red")}
-				className={`Light red${selectedColor === "red" ? " glow" : ""}`}
+				className={`light red${selectedColor === "red" ? " glow" : ""}`}
 			></div>
 
 			<div
 				onClick={() => setSelectedColor("yellow")}
-				className={`Light yellow${selectedColor === "yellow" ? " glow" : ""}`}
+				className={`light yellow${selectedColor === "yellow" ? " glow" : ""}`}
 			></div>
 
 			<div
 				onClick={() => setSelectedColor("green")}
-				className={`Light green${selectedColor === "green" ? " glow" : ""}`}
+				className={`light green${selectedColor === "green" ? " glow" : ""}`}
 			></div>
 		</div>
 	);
